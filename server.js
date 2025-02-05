@@ -10,7 +10,7 @@ class Server {
             login,
             spin
         } = require('./src/index');
-        const port = process.env.PORT || 3000;
+        const port = process.env.PORT || 8080;
 
         require('dotenv').config({
             path: path.resolve(__dirname, './.env')
